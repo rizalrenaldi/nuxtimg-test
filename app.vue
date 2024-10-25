@@ -2,7 +2,9 @@
   <div>
     <div class="item">
       <p>Okay, this seems to work. I was following <NuxtLink to="https://masteringnuxt.com/blog/getting-started-with-nuxt-image">https://masteringnuxt.com/blog/getting-started-with-nuxt-image</NuxtLink>, this resulted in [404] [IPX_FILE_NOT_FOUND] error on Vercel. Now without explicit setting `provider` in nuxt config, it's working.</p>
-      <p>I guess if you're deploying to Vercel and all of your images are in public folder (Anywhere within '/public' folder, whether it's in the root or inside sub-folder), you SHOULD NOT set the `provider: 'ipx'` in nuxt config.</p>
+      <p>The weird thing is, I have another project that includes `provider: 'ipx'` in its nuxt config and being deployed on Vercel but it doesn't have this problem 🤔</p>
+      <p>Even to make sure I test this to another project, and the results is the same. The ones with `provider: 'ipx'` does not work.</p>
+      <p>I guess if you're deploying to Vercel and all of your images are in public folder (Anywhere within '/public' folder, whether it's in the root or inside sub-folder), you should not set the `provider: 'ipx'` in nuxt config.</p>
 
       <p>Repo: <NuxtLink href="https://github.com/rizalrenaldi/nuxtimg-test" target="_blank">Github</NuxtLink></p>
 
