@@ -9,11 +9,18 @@
       />
     </div>
     <div>
-      <div>NuxtImg tag</div>
+      <div>icon.png NuxtImg tag with preset</div>
       <NuxtImg 
       src="/icon.png" 
       alt="icon" 
       preset="icon"
+      />
+    </div>
+    <div>
+      <div>icon.png img tag</div>
+      <img 
+      src="/icon.png" 
+      alt="icon"
       />
     </div>
     <div>
