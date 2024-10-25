@@ -8,7 +8,6 @@ export default defineNuxtConfig({
   modules: ['@nuxt/image'],
   image: {
     quality: 90,
-    provider: 'ipx',
     presets: {
       icon: {
         modifiers: {
