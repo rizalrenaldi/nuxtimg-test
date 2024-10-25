@@ -9,5 +9,14 @@ export default defineNuxtConfig({
   image: {
     quality: 90,
     provider: 'ipx',
+    presets: {
+      icon: {
+        modifiers: {
+          format: 'png',
+          width: 40,
+          height: 40,
+        },
+      },
+    },
   }
 })

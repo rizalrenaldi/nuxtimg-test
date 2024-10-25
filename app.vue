@@ -9,6 +9,14 @@
       />
     </div>
     <div>
+      <div>NuxtImg tag</div>
+      <NuxtImg 
+      src="/icon.png" 
+      alt="icon" 
+      preset="icon"
+      />
+    </div>
+    <div>
       <div>component with NuxtImg in it</div>
       <TheImage 
       src="/1.jpg" 
