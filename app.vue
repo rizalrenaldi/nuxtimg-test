@@ -9,7 +9,7 @@
       <p>Repo: <NuxtLink href="https://github.com/rizalrenaldi/nuxtimg-test" target="_blank">Github</NuxtLink></p>
 
       <div>
-        <span>This issue also mentioned </span>
+        <span>Related issue (?): </span>
         <NuxtLink href="https://github.com/nuxt/image/issues/1281" target="_blank">Here</NuxtLink> <span> and </span>
       <NuxtLink href="https://github.com/nuxt/image/issues/1281#issuecomment-2111403408" target="_blank">Here</NuxtLink>
       </div>
