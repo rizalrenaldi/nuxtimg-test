@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/image'],
   image: {
     quality: 90,
+    // provider: 'ipx', // This doesn't work on Vercel
     presets: {
       icon: {
         modifiers: {
